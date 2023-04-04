@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function makeShirt(size: string, message: string): void {\n  console.log(`The shirt size is ${size} and the message printed on it is \"${message}\".`);\n}\n\nmakeShirt(\"large\", \"Absolutely not by Imran Khan\");\n"],
+  "mappings": ";AAAA,SAAS,UAAU,MAAc,SAAuB;AACtD,UAAQ,IAAI,qBAAqB,0CAA0C,WAAW;AACxF;AAEA,UAAU,SAAS,8BAA8B;",
+  "names": []
+}

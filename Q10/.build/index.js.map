@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["// Prints the message \"Hello, [name]!\" to the console\nlet name: string = \"Rahat Sattar\";\nconsole.log(\"Hello,my name is \"+ name + \"!\");\n\n// Calculates and prints the area of a rectangle with a given width and height\nlet width: number = 5;\nlet height: number = 3;\nlet area: number = width * height;\nconsole.log(\"The area of a rectangle with width \" + width + \" and height \" + height + \" is \" + area);\n"],
+  "mappings": ";AACA,IAAI,OAAe;AACnB,QAAQ,IAAI,sBAAqB,OAAO,GAAG;AAG3C,IAAI,QAAgB;AACpB,IAAI,SAAiB;AACrB,IAAI,OAAe,QAAQ;AAC3B,QAAQ,IAAI,wCAAwC,QAAQ,iBAAiB,SAAS,SAAS,IAAI;",
+  "names": []
+}

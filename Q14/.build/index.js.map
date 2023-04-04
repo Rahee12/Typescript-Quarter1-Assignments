@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["interface Guest {\n  name: string;\n  message: string;\n}\n\nconst guestList: Guest[] = [\n  {\n    name: \"Albert Einstein\",\n    message: \"We would be honored if you could join us for dinner. Your wisdom and brilliance would be a great addition to our conversation. Please let us know if you are available.\"\n  },\n  {\n    name: \"Maya Angelou\",\n    message: \"We would be delighted if you could come to dinner. Your words and spirit have touched so many, and we would love to learn from you. Please let us know if you're available.\"\n  },\n  {\n    name: \"Nelson Mandela\",\n    message: \"We would be honored to have you join us for dinner. Your leadership and courage have inspired us all, and we would be privileged to hear your thoughts. Please let us know if you can attend.\"\n  }\n];\n\nfor (const guest of guestList) {\n  console.log(`Dear ${guest.name},\\n\\n${guest.message}\\n\\nSincerely,\\nThe Hosts`);\n}\n"],
+  "mappings": ";AAKA,MAAM,YAAqB;AAAA,EACzB;AAAA,IACE,MAAM;AAAA,IACN,SAAS;AAAA,EACX;AAAA,EACA;AAAA,IACE,MAAM;AAAA,IACN,SAAS;AAAA,EACX;AAAA,EACA;AAAA,IACE,MAAM;AAAA,IACN,SAAS;AAAA,EACX;AACF;AAEA,WAAW,SAAS,WAAW;AAC7B,UAAQ,IAAI,QAAQ,MAAM;AAAA;AAAA,EAAY,MAAM;AAAA;AAAA;AAAA,UAAkC;AAChF;",
+  "names": []
+}

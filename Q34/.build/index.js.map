@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const pizzas = [\"Chicken Tikka\", \"chicken cheese\", \"Pepperoni\"];\n\nfor (const pizza of pizzas) {\n  console.log(`I like ${pizza} pizza.`);\n}\n\nconsole.log(`I really love pizza!`);\n"],
+  "mappings": ";AAAA,MAAM,SAAS,CAAC,iBAAiB,kBAAkB,WAAW;AAE9D,WAAW,SAAS,QAAQ;AAC1B,UAAQ,IAAI,UAAU,cAAc;AACtC;AAEA,QAAQ,IAAI,sBAAsB;",
+  "names": []
+}

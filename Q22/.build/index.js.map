@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let myArray = [1, 2, 3, 4, 5];\n\n// Attempt to access an index that is out of range\nconsole.log(myArray[10]);\n\n// This will produce an error: \"TypeError: Cannot read property '10' of undefined\"\n\n\nconsole.log(myArray[2]); // Output: 3\n"],
+  "mappings": ";AAAA,IAAI,UAAU,CAAC,GAAG,GAAG,GAAG,GAAG,CAAC;AAG5B,QAAQ,IAAI,QAAQ,GAAG;AAKvB,QAAQ,IAAI,QAAQ,EAAE;",
+  "names": []
+}

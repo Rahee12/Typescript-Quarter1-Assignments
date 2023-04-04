@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let users: string[] = [];\n\nif (users.length === 0) {\n  console.log(\"We need to find some users!\");\n} else {\n  for (let i = 0; i < users.length; i++) {\n    console.log(\"User \" + (i+1) + \": \" + users[i]);\n  }\n\n  users = []; // remove all usernames from the array\n\n  if (users.length === 0) {\n    console.log(\"We need to find some users!\");\n  }\n}\n"],
+  "mappings": ";AAAA,IAAI,QAAkB,CAAC;AAEvB,IAAI,MAAM,WAAW,GAAG;AACtB,UAAQ,IAAI,6BAA6B;AAC3C,OAAO;AACL,WAAS,IAAI,GAAG,IAAI,MAAM,QAAQ,KAAK;AACrC,YAAQ,IAAI,WAAW,IAAE,KAAK,OAAO,MAAM,EAAE;AAAA,EAC/C;AAEA,UAAQ,CAAC;AAET,MAAI,MAAM,WAAW,GAAG;AACtB,YAAQ,IAAI,6BAA6B;AAAA,EAC3C;AACF;",
+  "names": []
+}

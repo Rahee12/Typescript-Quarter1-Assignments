@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let current_users: string[] = [\"John\", \"Jane\", \"Adam\", \"Eve\", \"Sarah\"];\nlet new_users: string[] = [\"Dave\", \"adam\", \"Sarah\", \"Mary\", \"Sam\"];\n\nfor (let i = 0; i < new_users.length; i++) {\n  let username_exists: boolean = false;\n  for (let j = 0; j < current_users.length; j++) {\n    if (new_users[i].toLowerCase() === current_users[j].toLowerCase()) {\n      username_exists = true;\n      break;\n    }\n  }\n  if (username_exists) {\n    console.log(`Sorry, the username '${new_users[i]}' is already taken. Please enter a new username.`);\n  } else {\n    console.log(`Congratulations, the username '${new_users[i]}' is available.`);\n  }\n}\n"],
+  "mappings": ";AAAA,IAAI,gBAA0B,CAAC,QAAQ,QAAQ,QAAQ,OAAO,OAAO;AACrE,IAAI,YAAsB,CAAC,QAAQ,QAAQ,SAAS,QAAQ,KAAK;AAEjE,SAAS,IAAI,GAAG,IAAI,UAAU,QAAQ,KAAK;AACzC,MAAI,kBAA2B;AAC/B,WAAS,IAAI,GAAG,IAAI,cAAc,QAAQ,KAAK;AAC7C,QAAI,UAAU,GAAG,YAAY,MAAM,cAAc,GAAG,YAAY,GAAG;AACjE,wBAAkB;AAClB;AAAA,IACF;AAAA,EACF;AACA,MAAI,iBAAiB;AACnB,YAAQ,IAAI,wBAAwB,UAAU,oDAAoD;AAAA,EACpG,OAAO;AACL,YAAQ,IAAI,kCAAkC,UAAU,mBAAmB;AAAA,EAC7E;AACF;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let Name = \"rahat sattar\";\nconsole.log(Name.toLowerCase());\nconsole.log(Name.toUpperCase());\nconsole.log(Name.replace(/\\b\\w/g, l => l.toUpperCase()));\n\n"],
+  "mappings": ";AAAA,IAAI,OAAO;AACX,QAAQ,IAAI,KAAK,YAAY,CAAC;AAC9B,QAAQ,IAAI,KAAK,YAAY,CAAC;AAC9B,QAAQ,IAAI,KAAK,QAAQ,SAAS,OAAK,EAAE,YAAY,CAAC,CAAC;",
+  "names": []
+}

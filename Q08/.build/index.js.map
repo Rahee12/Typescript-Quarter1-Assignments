@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["console.log(5 + 3);\nconst result: number = 5 + 3;\nconsole.log(result);\nconsole.log(5 + 3);\n"],
+  "mappings": ";AAAA,QAAQ,IAAI,IAAI,CAAC;AACjB,MAAM,SAAiB,IAAI;AAC3B,QAAQ,IAAI,MAAM;AAClB,QAAQ,IAAI,IAAI,CAAC;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const vehicles = ['Lexus luxury', 'Mercedes benz', 'Tesla electric car'];\n\nvehicles.forEach(function(vehicle) {\n  console.log('I would like to own a ' + vehicle + '.');\n});\n"],
+  "mappings": ";AAAA,MAAM,WAAW,CAAC,gBAAgB,iBAAiB,oBAAoB;AAEvE,SAAS,QAAQ,SAAS,SAAS;AACjC,UAAQ,IAAI,2BAA2B,UAAU,GAAG;AACtD,CAAC;",
+  "names": []
+}

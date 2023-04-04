@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let usernames: string[] = [\"Jesis\", \"Eric\", \"Jane\", \"Boby\", \"Alvina\"];\n\nfor (let i = 0; i < usernames.length; i++) {\n  if (usernames[i] === \"admin\") {\n    console.log(\"Hello admin, would you like to see a different country?\");\n  } else {\n    console.log(`Hello ${usernames[i]}, thank you for coming into my life to make it more special.`);\n  }\n}\n"],
+  "mappings": ";AAAA,IAAI,YAAsB,CAAC,SAAS,QAAQ,QAAQ,QAAQ,QAAQ;AAEpE,SAAS,IAAI,GAAG,IAAI,UAAU,QAAQ,KAAK;AACzC,MAAI,UAAU,OAAO,SAAS;AAC5B,YAAQ,IAAI,yDAAyD;AAAA,EACvE,OAAO;AACL,YAAQ,IAAI,SAAS,UAAU,gEAAgE;AAAA,EACjG;AACF;",
+  "names": []
+}

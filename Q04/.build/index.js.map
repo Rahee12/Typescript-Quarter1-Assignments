@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let famousPerson = \"Tony Robbins\";\nlet quote = \"Don't let the fear of losing be greater than the excitement of winning.\";\nlet message = famousPerson + ' once said, \"' + quote + '\"';\nconsole.log(message);\n"],
+  "mappings": ";AAAA,IAAI,eAAe;AACnB,IAAI,QAAQ;AACZ,IAAI,UAAU,eAAe,kBAAkB,QAAQ;AACvD,QAAQ,IAAI,OAAO;",
+  "names": []
+}

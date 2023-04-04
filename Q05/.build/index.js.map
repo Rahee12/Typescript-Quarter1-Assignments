@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let name: string = \"\\t\\n rahat sattar \\n\\t\";\n\nconsole.log(\"Name with whitespace: '\" + name + \"'\");\nconsole.log(\"Name without whitespace:'\" + name.trim() + \"'\");\n"],
+  "mappings": ";AAAA,IAAI,OAAe;AAEnB,QAAQ,IAAI,4BAA4B,OAAO,GAAG;AAClD,QAAQ,IAAI,8BAA8B,KAAK,KAAK,IAAI,GAAG;",
+  "names": []
+}

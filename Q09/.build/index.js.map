@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let favoriteNumber: number = 50; // Declare a variable called \"favoriteNumber\" and assign it your favorite number\nlet message: string = \"My favorite number is \" + favoriteNumber + \".\"; // Create a message that includes your favorite number using string concatenation\nconsole.log(message); // Log the message to the console\n\n"],
+  "mappings": ";AAAA,IAAI,iBAAyB;AAC7B,IAAI,UAAkB,2BAA2B,iBAAiB;AAClE,QAAQ,IAAI,OAAO;",
+  "names": []
+}

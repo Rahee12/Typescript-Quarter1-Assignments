@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function make_album(artist: string, title: string, tracks?: number): any {\n  return {\n    artist,\n    title,\n    tracks,\n  };\n}\n\nconst album1 = make_album(\"Arijit Singh\", \"Arijit Singh Live\");\nconsole.log(album1);\n\nconst album2 = make_album(\"Shreya Ghoshal\", \"Shreya Ghoshal Hits\");\nconsole.log(album2);\n\nconst album3 = make_album(\"Neha Kakkar\", \"Neha Kakkar Live\", 12);\nconsole.log(album3);\n"],
+  "mappings": ";AAAA,SAAS,WAAW,QAAgB,OAAe,QAAsB;AACvE,SAAO;AAAA,IACL;AAAA,IACA;AAAA,IACA;AAAA,EACF;AACF;AAEA,MAAM,SAAS,WAAW,gBAAgB,mBAAmB;AAC7D,QAAQ,IAAI,MAAM;AAElB,MAAM,SAAS,WAAW,kBAAkB,qBAAqB;AACjE,QAAQ,IAAI,MAAM;AAElB,MAAM,SAAS,WAAW,eAAe,oBAAoB,EAAE;AAC/D,QAAQ,IAAI,MAAM;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let Name = \"imran khan\";\nlet message = \"Hello \" + Name + \", would you have the road map for better pakistan?\";\nconsole.log(message);"],
+  "mappings": ";AAAA,IAAI,OAAO;AACX,IAAI,UAAU,WAAW,OAAO;AAChC,QAAQ,IAAI,OAAO;",
+  "names": []
+}

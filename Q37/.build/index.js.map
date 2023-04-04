@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function makeShirt(size: string = \"large\", message: string = \"The road to success and the road to failure are almost exactly the same.\"): void {\n  console.log(`Shirt size: ${size} | Message: \"${message}\"`);\n}\n\n// Large shirt with default message\nmakeShirt();\n\n// Medium shirt with default message\nmakeShirt(\"medium\");\n\n// Small shirt with custom message\nmakeShirt(\"small\", \"Opportunities don't happen. You create them.!\");\n"],
+  "mappings": ";AAAA,SAAS,UAAU,OAAe,SAAS,UAAkB,4EAAkF;AAC7I,UAAQ,IAAI,eAAe,oBAAoB,UAAU;AAC3D;AAGA,UAAU;AAGV,UAAU,QAAQ;AAGlB,UAAU,SAAS,+CAA+C;",
+  "names": []
+}

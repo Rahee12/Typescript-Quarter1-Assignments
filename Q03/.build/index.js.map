@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let author = \"Barack Obama\";\nlet quote = \"The only limit to our realization of tomorrow will be our doubts of today.\";\n\nconsole.log(author + \" once said, \\\"\" + quote + \"\\\"\");\n"],
+  "mappings": ";AAAA,IAAI,SAAS;AACb,IAAI,QAAQ;AAEZ,QAAQ,IAAI,SAAS,kBAAmB,QAAQ,GAAI;",
+  "names": []
+}

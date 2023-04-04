@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let favorite_fruits: string[] = [\"apple\", \"banana\", \"mango\"];\n\nif (favorite_fruits.includes(\"apple\")) {\n  console.log(\"You really like apples!\");\n}\n\nif (favorite_fruits.includes(\"banana\")) {\n  console.log(\"You really like bananas!\");\n}\n\nif (favorite_fruits.includes(\"mango\")) {\n  console.log(\"You really like mangoes!\");\n}\n\nif (favorite_fruits.includes(\"orange\")) {\n  console.log(\"You really like oranges!\");\n} else {\n  console.log(\"You don't seem to like oranges.\");\n}\n\nif (favorite_fruits.includes(\"grape\")) {\n  console.log(\"You really like grapes!\");\n} else {\n  console.log(\"You don't seem to like grapes.\");\n}\n"],
+  "mappings": ";AAAA,IAAI,kBAA4B,CAAC,SAAS,UAAU,OAAO;AAE3D,IAAI,gBAAgB,SAAS,OAAO,GAAG;AACrC,UAAQ,IAAI,yBAAyB;AACvC;AAEA,IAAI,gBAAgB,SAAS,QAAQ,GAAG;AACtC,UAAQ,IAAI,0BAA0B;AACxC;AAEA,IAAI,gBAAgB,SAAS,OAAO,GAAG;AACrC,UAAQ,IAAI,0BAA0B;AACxC;AAEA,IAAI,gBAAgB,SAAS,QAAQ,GAAG;AACtC,UAAQ,IAAI,0BAA0B;AACxC,OAAO;AACL,UAAQ,IAAI,iCAAiC;AAC/C;AAEA,IAAI,gBAAgB,SAAS,OAAO,GAAG;AACrC,UAAQ,IAAI,yBAAyB;AACvC,OAAO;AACL,UAAQ,IAAI,gCAAgC;AAC9C;",
+  "names": []
+}

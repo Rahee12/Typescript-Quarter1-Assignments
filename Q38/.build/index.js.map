@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function describe_city(city: string, country: string = 'Pakistan') {\n  console.log(city + \" is in \" + country + \".\");\n}\n\ndescribe_city('Karachi');\ndescribe_city('Lahore');\ndescribe_city('New York', 'USA');\n"],
+  "mappings": ";AAAA,SAAS,cAAc,MAAc,UAAkB,YAAY;AACjE,UAAQ,IAAI,OAAO,YAAY,UAAU,GAAG;AAC9C;AAEA,cAAc,SAAS;AACvB,cAAc,QAAQ;AACtB,cAAc,YAAY,KAAK;",
+  "names": []
+}

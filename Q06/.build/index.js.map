@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["// Addition operation\nlet sum = 4 + 4;\nconsole.log(`4 + 4 = ${sum}`);\n\n// Subtraction operation\nlet Subtraction = 10 - 2;\nconsole.log(`10 - 2 = ${Subtraction}`);\n\n// Multiplication operation\nlet Multiplication = 2 * 4;\nconsole.log(`2 * 4 = ${Multiplication}`);\n\n// Division operation\nlet Division = 32 / 4;\nconsole.log(`32 / 4 = ${Division}`);"],
+  "mappings": ";AACA,IAAI,MAAM,IAAI;AACd,QAAQ,IAAI,WAAW,KAAK;AAG5B,IAAI,cAAc,KAAK;AACvB,QAAQ,IAAI,YAAY,aAAa;AAGrC,IAAI,iBAAiB,IAAI;AACzB,QAAQ,IAAI,WAAW,gBAAgB;AAGvC,IAAI,WAAW,KAAK;AACpB,QAAQ,IAAI,YAAY,UAAU;",
+  "names": []
+}

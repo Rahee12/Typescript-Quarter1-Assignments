@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function makeSandwich(...items: string[]): void {\n  console.log(`Making a sandwich with: ${items.join(\", \")}`);\n}\n\nmakeSandwich(\"EGG\", \"lettuce\", \"tomato\", \"mayonnaise\");\nmakeSandwich(\"peanut butter\", \"jelly\");\nmakeSandwich(\"ham\", \"cheese\", \"mustard\");\n"],
+  "mappings": ";AAAA,SAAS,gBAAgB,OAAuB;AAC9C,UAAQ,IAAI,2BAA2B,MAAM,KAAK,IAAI,GAAG;AAC3D;AAEA,aAAa,OAAO,WAAW,UAAU,YAAY;AACrD,aAAa,iBAAiB,OAAO;AACrC,aAAa,OAAO,UAAU,SAAS;",
+  "names": []
+}

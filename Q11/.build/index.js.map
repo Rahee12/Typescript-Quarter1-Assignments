@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const names: string[] = ['Rahat', 'Hamza', 'Faiza', 'Malik']; // Store the names of friends in an array called \"names\"\n\nfor (const name of names) { // Loop through each element in the array using a \"for...of\" loop\n  console.log(name); // Print each person's name by accessing each element in the list, one at a time\n}\n"],
+  "mappings": ";AAAA,MAAM,QAAkB,CAAC,SAAS,SAAS,SAAS,OAAO;AAE3D,WAAW,QAAQ,OAAO;AACxB,UAAQ,IAAI,IAAI;AAClB;",
+  "names": []
+}

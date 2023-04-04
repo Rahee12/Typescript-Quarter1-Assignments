@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function show_magicians(magicians: string[]): void {\n  magicians.forEach((magician) => console.log(magician));\n}\n\nconst magicians: string[] = [\"David Copperfield\", \"Harry Houdini\", \"Penn Jillette\", \"Teller\"];\n\nshow_magicians(magicians);\n"],
+  "mappings": ";AAAA,SAAS,eAAeA,YAA2B;AACjD,EAAAA,WAAU,QAAQ,CAAC,aAAa,QAAQ,IAAI,QAAQ,CAAC;AACvD;AAEA,MAAM,YAAsB,CAAC,qBAAqB,iBAAiB,iBAAiB,QAAQ;AAE5F,eAAe,SAAS;",
+  "names": ["magicians"]
+}

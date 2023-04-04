@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let animals = [\"Dog\", \"Persian Cat\", \"Horse\"];\n\nfor (let animal of animals) {\n  console.log(animal);\n}\n\nfor (let animal of animals) {\n  console.log(`A ${animal} would make a great pet.`);\n}\n\nconsole.log(\"All of these animals are common household pets!\");\n"],
+  "mappings": ";AAAA,IAAI,UAAU,CAAC,OAAO,eAAe,OAAO;AAE5C,SAAS,UAAU,SAAS;AAC1B,UAAQ,IAAI,MAAM;AACpB;AAEA,SAAS,UAAU,SAAS;AAC1B,UAAQ,IAAI,KAAK,gCAAgC;AACnD;AAEA,QAAQ,IAAI,iDAAiD;",
+  "names": []
+}

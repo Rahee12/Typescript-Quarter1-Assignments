@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["interface Car {\n  manufacturer: string;\n  model: string;\n  [key: string]: any; // Allow for arbitrary properties\n}\n\nfunction createCar(manufacturer: string, model: string, ...options: any[]): Car {\n  const car: Car = { manufacturer, model };\n  options.forEach(option => {\n    const [key, value] = option.split(':');\n    car[key.trim()] = value.trim();\n  });\n  return car;\n}\n\nconst myCar = createCar('Toyota', 'Corolla', 'color: silver', 'sunroof: true');\nconsole.log(myCar);\n"],
+  "mappings": ";AAMA,SAAS,UAAU,cAAsB,UAAkB,SAAqB;AAC9E,QAAM,MAAW,EAAE,cAAc,MAAM;AACvC,UAAQ,QAAQ,YAAU;AACxB,UAAM,CAAC,KAAK,KAAK,IAAI,OAAO,MAAM,GAAG;AACrC,QAAI,IAAI,KAAK,KAAK,MAAM,KAAK;AAAA,EAC/B,CAAC;AACD,SAAO;AACT;AAEA,MAAM,QAAQ,UAAU,UAAU,WAAW,iBAAiB,eAAe;AAC7E,QAAQ,IAAI,KAAK;",
+  "names": []
+}

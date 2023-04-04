@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];\n\nfor (let i = 0; i < numbers.length; i++) {\n  let number = numbers[i];\n  let ordinal = \"\";\n\n  if (number === 1) {\n    ordinal = \"st\";\n  } else if (number === 2) {\n    ordinal = \"nd\";\n  } else if (number === 3) {\n    ordinal = \"rd\";\n  } else {\n    ordinal = \"th\";\n  }\n\n  console.log(`${number}${ordinal}`);\n}\n\n\n"],
+  "mappings": ";AAAA,IAAI,UAAoB,CAAC,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG,GAAG,CAAC;AAElD,SAAS,IAAI,GAAG,IAAI,QAAQ,QAAQ,KAAK;AACvC,MAAI,SAAS,QAAQ;AACrB,MAAI,UAAU;AAEd,MAAI,WAAW,GAAG;AAChB,cAAU;AAAA,EACZ,WAAW,WAAW,GAAG;AACvB,cAAU;AAAA,EACZ,WAAW,WAAW,GAAG;AACvB,cAAU;AAAA,EACZ,OAAO;AACL,cAAU;AAAA,EACZ;AAEA,UAAQ,IAAI,GAAG,SAAS,SAAS;AACnC;",
+  "names": []
+}

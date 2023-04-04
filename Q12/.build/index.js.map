@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let people = ['Rahat', 'Hamza', 'Faiza', 'Malik'];\n\npeople.forEach(function(person) {\n  console.log('Hello ' + person + ', how are you doing today?');\n});\n"],
+  "mappings": ";AAAA,IAAI,SAAS,CAAC,SAAS,SAAS,SAAS,OAAO;AAEhD,OAAO,QAAQ,SAAS,QAAQ;AAC9B,UAAQ,IAAI,WAAW,SAAS,4BAA4B;AAC9D,CAAC;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["const mountains: string[] = ['K2', 'Nanga Parbat', 'Rakaposhi', 'Tirich Mir', 'Broad Peak'];\nconst rivers: string[] = ['Indus', 'Jhelum', 'Chenab', 'Ravi', 'Sutlej'];\nconst countries: string[] = ['Pakistan', 'India', 'China', 'Iran', 'Afghanistan'];\nconst cities: string[] = ['Karachi', 'Lahore', 'Islamabad', 'Rawalpindi', 'Peshawar'];\nconst languages: string[] = ['Urdu', 'Punjabi', 'Sindhi', 'Pashto', 'Balochi'];\n\nconsole.log('Pakistani Mountains:', mountains);\nconsole.log('Pakistani Rivers:', rivers);\nconsole.log('Pakistani Countries:', countries);\nconsole.log('Pakistani Cities:', cities);\nconsole.log('Pakistani Languages:', languages);\n"],
+  "mappings": ";AAAA,MAAM,YAAsB,CAAC,MAAM,gBAAgB,aAAa,cAAc,YAAY;AAC1F,MAAM,SAAmB,CAAC,SAAS,UAAU,UAAU,QAAQ,QAAQ;AACvE,MAAM,YAAsB,CAAC,YAAY,SAAS,SAAS,QAAQ,aAAa;AAChF,MAAM,SAAmB,CAAC,WAAW,UAAU,aAAa,cAAc,UAAU;AACpF,MAAM,YAAsB,CAAC,QAAQ,WAAW,UAAU,UAAU,SAAS;AAE7E,QAAQ,IAAI,wBAAwB,SAAS;AAC7C,QAAQ,IAAI,qBAAqB,MAAM;AACvC,QAAQ,IAAI,wBAAwB,SAAS;AAC7C,QAAQ,IAAI,qBAAqB,MAAM;AACvC,QAAQ,IAAI,wBAAwB,SAAS;",
+  "names": []
+}

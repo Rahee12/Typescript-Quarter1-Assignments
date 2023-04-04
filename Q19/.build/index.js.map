@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["let guests = [\"Malala Yousafzai\", \"Albert Einstein\", \"Maya Angelou\", \"Nelson Mandela\", \"Marie Curie\", \"Stephen Hawking\"];\n\nconsole.log(`There are ${guests.length} people invited to dinner.`);\n"],
+  "mappings": ";AAAA,IAAI,SAAS,CAAC,oBAAoB,mBAAmB,gBAAgB,kBAAkB,eAAe,iBAAiB;AAEvH,QAAQ,IAAI,aAAa,OAAO,kCAAkC;",
+  "names": []
+}

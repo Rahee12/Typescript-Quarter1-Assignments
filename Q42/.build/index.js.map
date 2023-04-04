@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["function make_great(magicians: string[]): string[] {\n  return magicians.map((magician) => `the Great ${magician}`);\n}\n\nfunction show_magicians(magicians: string[]): void {\n  magicians.forEach((magician) => console.log(magician));\n}\n\nlet magicians: string[] = [\"David Copperfield\", \"Harry Houdini\", \"Penn Jillette\", \"Teller\"];\n\nmagicians = make_great(magicians);\n\nshow_magicians(magicians);\n"],
+  "mappings": ";AAAA,SAAS,WAAWA,YAA+B;AACjD,SAAOA,WAAU,IAAI,CAAC,aAAa,aAAa,UAAU;AAC5D;AAEA,SAAS,eAAeA,YAA2B;AACjD,EAAAA,WAAU,QAAQ,CAAC,aAAa,QAAQ,IAAI,QAAQ,CAAC;AACvD;AAEA,IAAI,YAAsB,CAAC,qBAAqB,iBAAiB,iBAAiB,QAAQ;AAE1F,YAAY,WAAW,SAAS;AAEhC,eAAe,SAAS;",
+  "names": ["magicians"]
+}
